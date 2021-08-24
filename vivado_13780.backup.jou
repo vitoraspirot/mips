@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jul  6 16:20:12 2021
+# Process ID: 13780
+# Current directory: C:/Users/lipe-/Downloads/mips-main
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10860 C:\Users\lipe-\Downloads\mips-main\miTo.xpr
+# Log file: C:/Users/lipe-/Downloads/mips-main/vivado.log
+# Journal file: C:/Users/lipe-/Downloads/mips-main\vivado.jou
+#-----------------------------------------------------------sstart_guiopen_project C:/Users/lipe-/Downloads/mips-main/miTo.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/lipe-/Downloads/mips-main/testebench_behav.wcfg
+source testebench.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim

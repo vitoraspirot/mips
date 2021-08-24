@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testebench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="mito_pkg" />
+            <top_module name="testebench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="261160fs"></ZoomStartTime>
+      <ZoomEndTime time="283761fs"></ZoomEndTime>
+      <Cursor1Time time="384540fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="132"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/testebench/miTo_i/memory_i/mem[14]" type="array">
+      <obj_property name="ElementShortName">[14][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[14][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/mem[15]" type="array">
+      <obj_property name="ElementShortName">[15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/mem[16]" type="array">
+      <obj_property name="ElementShortName">[16][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[16][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/memory_i/mem[20]" type="array">
+      <obj_property name="ElementShortName">[20][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[20][15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/reg1" type="array">
+      <obj_property name="ElementShortName">reg1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/reg2" type="array">
+      <obj_property name="ElementShortName">reg2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/reg3" type="array">
+      <obj_property name="ElementShortName">reg3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg3[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/reg4" type="array">
+      <obj_property name="ElementShortName">reg4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/data_path_i/reg5" type="array">
+      <obj_property name="ElementShortName">reg5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg5[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testebench/miTo_i/control_unit_i/opcode" type="other">
+      <obj_property name="ElementShortName">opcode</obj_property>
+      <obj_property name="ObjectShortName">opcode</obj_property>
+   </wvobject>
+</wave_config>

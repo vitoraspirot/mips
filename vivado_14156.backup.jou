@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jul  7 10:28:24 2021
+# Process ID: 14156
+# Current directory: C:/Users/vitor/Documents/UERGS/2021.1/Organização de Computadores/Trabalho/mips-main
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10208 C:\Users\vitor\Documents\UERGS\2021.1\Organização de Computadores\Trabalho\mips-main\miTo.xpr
+# Log file: C:/Users/vitor/Documents/UERGS/2021.1/Organização de Computadores/Trabalho/mips-main/vivado.log
+# Journal file: C:/Users/vitor/Documents/UERGS/2021.1/Organização de Computadores/Trabalho/mips-main\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/vitor/Documents/UERGS/2021.1/Organização de Computadores/Trabalho/mips-main/miTo.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/vitor/Documents/UERGS/2021.1/Organização de Computadores/Trabalho/mips-main/testebench_behav.wcfg}
+source testebench.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim

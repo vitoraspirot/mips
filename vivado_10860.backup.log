@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jul  7 09:28:38 2021
+# Process ID: 10860
+# Current directory: C:/Users/vitor/Documents/UERGS/2021.1/Organização de Computadores/Trabalho/mips-main
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12768 C:\Users\vitor\Documents\UERGS\2021.1\Organização de Computadores\Trabalho\mips-main\miTo.xpr
+# Log file: C:/Users/vitor/Documents/UERGS/2021.1/Organização de Computadores/Trabalho/mips-main/vivado.log
+# Journal file: C:/Users/vitor/Documents/UERGS/2021.1/Organização de Computadores/Trabalho/mips-main\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/vitor/Documents/UERGS/2021.1/Organização de Computadores/Trabalho/mips-main/miTo.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/vitor/Documents/UERGS/2021.1/Organização de Computadores/Trabalho/mips-main'
+INFO: [Project 1-313] Project file moved from 'C:/Users/lipe-/Downloads/mips-main' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/vitor/Documents/UERGS/2021.1/Organização de Computadores/tb-final.wcfg', nor could it be found using path 'C:/Users/lipe-/tb-final.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1063.680 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Wed Jul  7 09:48:55 2021] Launched synth_1...
+Run output will be captured here: C:/Users/vitor/Documents/UERGS/2021.1/Organização de Computadores/Trabalho/mips-main/miTo.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jul  7 10:27:55 2021...

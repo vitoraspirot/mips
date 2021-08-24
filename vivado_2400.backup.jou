@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jun  1 22:38:02 2021
+# Process ID: 2400
+# Current directory: C:/Users/lipe-/Desktop/amor/mips(add-sub-jmp-beq-store-load)
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7552 C:\Users\lipe-\Desktop\amor\mips(add-sub-jmp-beq-store-load)\miTo.xpr
+# Log file: C:/Users/lipe-/Desktop/amor/mips(add-sub-jmp-beq-store-load)/vivado.log
+# Journal file: C:/Users/lipe-/Desktop/amor/mips(add-sub-jmp-beq-store-load)\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lipe-/Desktop/amor/mips(add-sub-jmp-beq-store-load)/miTo.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testebench.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+save_wave_config {C:/Users/lipe-/Desktop/tb-final.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/lipe-/Desktop/tb-final.wcfg
+set_property xsim.view {C:/Users/lipe-/Desktop/amor/mips(add-sub-jmp-beq-store-load)/testebench_behav.wcfg C:/Users/lipe-/Desktop/tb-final.wcfg} [get_filesets sim_1]
+close_sim
