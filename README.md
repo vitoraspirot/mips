@@ -1,31 +1,33 @@
-# 32-bit MiniMIPS
+# MiniMIPS
 
-## Description
+## Descrição
 
-This is a 32-bit MiniMIPS base project. The project contains files with declared control signals and bus bars. The files are hierarchical.
-They can be used as base to the final project for Computer Organization class at State University of Rio Grande do Sul - UERGS in early 2021 [2021/1].
+Este é um projeto simples de processador baseado em um MiniMips Multiciclo de 32bits.  O projeto contém ficheiros com sinais de controle declarados e alguns barramentos. Os arquivos são hierárquicos. Este foi o projeto final da disciplina de Organização de Computadores na Universidade Estadual do Rio Grande do Sul(UERGS) no início de 2021.
 
-As they say:
-> May the force be with you!
+## Características
 
-## How to use
+- Memória: 7bits
+- Tamanho da palavra: 16bits
+- Tamanho das instruções: 16bits
+- Número de registradores: 8
 
-You may choose one of the options:
+## Como usar
 
-- 1. Use only source files
-    > Download and add the files in miTo.srcs/sources_1/new as *design sources* to your project in vivado. The simulation file also can be used and can be found in miTo.srcs/sources_1/new.
+Você pode escolher uma das opções
+
+- 1. Utilizar apenas o arquivo fonte
+    > Baixe e adicione os arquivos em miTo.srcs/sources_1/new como *design sources* ao seu projeto no vivado. O arquivo de simulação também pode ser utilizado e encontrado em miTo.srcs/sources_1/new.
     
-- 2. Use the entire project
-    > After downloading or cloning the folder, open the .xpr file.
-    > 
+- 2. Utilizar o projeto inteiro
+    > Depois de baixar ou clonar o projeto, abra o arquivo .xpr.
 
-#### Computer Engineering
+#### Engenharia de Computação
 
 #### UNIVERSIDADE ESTADUAL DO RIO GRANDE DO SUL
 
-### @author
+### @autor
 
-[`newtonjr`] | | [`newton-almerao@uergs.edu.br`]
+[`vitoraspirot`] | | [`vitoraspirot@gmail.com`]
 
 
 ## License
